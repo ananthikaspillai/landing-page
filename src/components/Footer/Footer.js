@@ -2,7 +2,7 @@ import React from 'react'
 import whitelogo from "../../assets/whitelogo.svg"
 function Footer() {
 return (
-    <div className="bg-red-700   mt-[90px] pt-16 pb-20 pl-[80px] pr-[60px] w-[1263px] h-[450px]">
+    <div className="bg-red-700   mt-[90px] pt-16 pb-20 pl-[80px] pr-[60px] w-[1263px] h-[500px]">
      <div className="self-center w-full max-w-[1218px] max-md:max-w-full">
     <div className="gap-5 flex max-md:flex-col ">
     <div className=" w-[73%] ">
@@ -55,7 +55,7 @@ return (
         </div>
         </div>
          <div className="text-white text-base leading-[200%] mt-24 max-md:mt-10">
-            <span className="text-white">Built by Jeremiah with </span>love{" "}
+            <span className="text-white">Built by Jeremiah with </span>
          <span className="text-white">in Lagos. Copyright 2021</span>
           </div>
          </div>
