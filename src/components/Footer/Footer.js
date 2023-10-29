@@ -2,11 +2,11 @@ import React from 'react'
 import whitelogo from "../../assets/whitelogo.svg"
 function Footer() {
 return (
-    <div className="bg-red-700   mt-28 pt-16 pb-20 px-5 max-md:max-w-full max-md:mt-10">
+    <div className="bg-red-700   mt-[90px] pt-16 pb-20 pl-[80px] pr-[60px] w-[1263px] h-[450px]">
      <div className="self-center w-full max-w-[1218px] max-md:max-w-full">
-    <div className="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
-    <div className="flex flex-col items-stretch w-[73%] max-md:w-full max-md:ml-0">
-    <div className="flex grow flex-col max-md:max-w-full max-md:mt-10">
+    <div className="gap-5 flex max-md:flex-col ">
+    <div className=" w-[73%] ">
+    <div className="flex grow flex-col max-md:max-w-full max-md:mt-7">
     <div className="w-[795px] max-w-full">
     <div className="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
     <div className="flex flex-col items-stretch w-[53%] max-md:w-full max-md:ml-0">

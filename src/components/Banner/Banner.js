@@ -1,41 +1,4 @@
 
-
-// import React from 'react';
-// import photo from "../../assets/photo.svg";
-// import './Banner.css'
-// function Banner() {
-//   return (
-//     <div style={{display:"flex" }}>
-//         <div style={{display:"flex",gap:"15px",marginTop:"50px",marginLeft:"100px"}}>
-          
-//                  <h2 style={{color:"#B00000",fontFamily:"Poppins",fontSize:"14px",fontWeight:"600",lineHeight:"normal"}} >Hosting</h2>
-//                <h2 style={{color:"#D6D4D4E0",fontFamily:"Poppins",fontSize:"14px",fontWeight:"600",lineHeight:"normal"}} >Domain</h2>
-//                 <h2 style={{color:"#D6D4D4E0",fontFamily:"Poppins",fontSize:"14px",fontWeight:"600",lineHeight:"normal"}} >SEO</h2>
-//                 <h2 style={{color:"#D6D4D4E0",fontFamily:"Poppins",fontSize:"14px",fontWeight:"600",lineHeight:"normal"}} >Email</h2>
-            
-//      </div>
-    
-//       <div style={{ marginTop: "40px"}}>
-//          <div style={{marginTop:"40px"}}>
-//          <h1 style={{ color: "var(--text-title, #2E2E2E)", fontFamily: "Poppins", fontSize: "40px", fontWeight: "700", lineHeight: "55px",marginRight:"500px"  }}>Premium Web </h1>
-//          </div>
-//         <div>
-//           <h2 style={{ color: "#808080", fontSize: "16px", fontFamily: "Inter", fontWeight: "400", letterSpacing: "0.8px",marginTop:"200px",marginRight:"400px" }}>Blazing fast web hosting for individuals and businesses of all sizes backed by 24x7x365 Support.</h2>
-//         </div>
-//         <div>
-//           <button style={{ color: "white", fontFamily: "Poppins", fontSize: "14px", fontWeight: "400", lineHeight: "22px", borderRadius: "8px", background: "#B00000", boxShadow: "0px 0px 64px 0px" }}>Create an Account</button>
-//           <button style={{ color: "#000", fontFamily: "Poppins", fontSize: "14px", fontWeight: "400", lineHeight: "22px" }}>Choose your plan</button>
-//         </div>
-//       </div>
-//       <div>
-//         <img style={{ width: "260px", height: "260px" }} src={photo} alt='profile' />
-//       </div>
-//     </div>
-//   );
-// }
-
-// export default Banner;
-
  import React from 'react';
  import photo from "../../assets/photo.svg";
  import './Banner.css'
@@ -87,7 +50,7 @@ return (
         </div>
       </div>
       <div className="flex flex-col items-stretch w-6/12 ml-5 max-md:w-full max-md:ml-0">
-        <img className="aspect-[1.1] object-cover object-center w-96 h-96 overflow-hidden grow mt-3 max-md:max-w-full max-md:mt-10" src={photo}
+        <img className="aspect-[1.1] object-cover object-center w-[1000px] h-95 overflow-hidden grow mt-3 max-md:max-w-full max-md:mt-10" src={photo}
         />
       </div>
     </div>
