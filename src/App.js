@@ -1,21 +1,21 @@
 
 import './App.css';
-import Banner from './components/Banner/Banner';
-import BannerSecond from './components/BannerSecond/BannerSecond';
-import NavBar from './components/NavBar/NavBar';
-import BannerThird from './components/BannerThird/BannerThird'
+import BannerSecond from './components/CloudHosting/CloudHosting';
+import Header from './components/Header/Header';
+import BannerThird from './components/Features/Features'
 import { Badge } from 'react-bootstrap';
-import BannerFourth from './components/BannerFourth/BannerFourth';
-import BannerFifth from './components/BannerFifth/BannerFifth';
-import Bottom1 from './components/Bottom1/Bottom1';
-import Bottom2 from './components/Bottom2/Bottom2';
+import BannerFourth from './components/PackageSelector/PackageSelector';
+import BannerFifth from './components/RealStories/RealStories';
+import Bottom1 from './components/Websites/Website';
+import Bottom2 from './components/ContactDetails/ContactDetails';
 import Footer from './components/Footer/Footer';
-import Fourth2 from './components/Fourth2/Fourth2';
+
+import CreatingAccount from './components/CreatingAccount/CreatingAccount';
 function App() {
   return (
     <div className="App">
-    <NavBar/>
-    <Banner/>
+    <Header/>
+    <CreatingAccount/>
     <BannerSecond/>
      <BannerThird/>
     <BannerFourth/>
@@ -23,7 +23,7 @@ function App() {
     <Bottom1/>
     <Bottom2/>
     <Footer/>
-    {/* <Fourth2/> */}
+  
         </div>
   );
 }

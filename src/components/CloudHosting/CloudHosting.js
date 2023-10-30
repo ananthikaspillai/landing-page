@@ -8,7 +8,6 @@ import  cloudflair from "../../assets/cloudflair.svg"
 function BannerSecond() {
   return (
         <div className=" mt-[80px] px-3 gap-5 flex max-md:flex-col  ">
-          {/* <div className="gap-5 flex max-md:flex-col "> */}
             <div className="flex flex-col items-stretch w-[49%] max-md:w-full max-md:ml-0">
               <div className="flex grow flex-col max-md:max-w-full max-md:mt-10">
                 <div className="text-zinc-900 text-4xl font-extrabold w-[594px] h-[65px]  ">
@@ -23,7 +22,6 @@ function BannerSecond() {
               </div>
             </div>
             <div className="flex flex-col items-stretch w-[51%] ml-5 ">
-              {/* <div className="grow my-auto max-md:max-w-full max-md:mt-10"> */}
                 <div className="gap-5 flex max-md">
                   <div className="flex flex-col items-stretch ">
 
@@ -65,8 +63,6 @@ function BannerSecond() {
                 </div>
               </div>
             </div>
-          // </div>
-        // </div>
       );
     }
     

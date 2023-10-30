@@ -1,8 +1,7 @@
 
  import React from 'react';
  import photo from "../../assets/photo.svg";
- import './Banner.css'
-function Banner() {
+function CreatingAccount() {
 return (
   <div className="self-center w-full max-w-[1215px]  px-16 max-md:max-w-full mt-[50px]">
     <div className="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0 ">
@@ -22,7 +21,6 @@ return (
               Email
             </div>
           </div>
-          {/* <div className="w-96 text-zinc-800 text-6xl font-bold font-['Poppins'] leading-10">Premium Web Hosting for Your Website</div> */}
           <div className="bg-neutral-200 flex w-[242px] max-w-full flex-col mt-1.5 pl-1 pr-5">
             <div className="bg-red-700 flex w-[47px] h-px flex-col" />
           </div>
@@ -31,10 +29,6 @@ return (
            <h1 className="mr-[140px]">Hosting  For Your</h1>
            <h1 className="mr-[330px]">Website</h1>
           </div>
-          {/* <div className="text-zinc-500 text-base leading-[175%] tracking-wider mt-[40px] max-md:max-w-full max-md:mt-10">
-            Blazing fast web hosting for individuals and businesses of all
-            sizes backed by 24x7x365 Support.
-          </div> */}
           <div className="w-96  mt-[40px] text-zinc-500 text-base font-normal font-['Inter'] leading-7 tracking-wide ">
             <h1 className="mr-[56px]">Blazing fast web hosting for individuals and </h1> 
             <h1 className="">businesses of all sizes backed by 24x7x365 Support.</h1>
@@ -57,7 +51,7 @@ return (
   </div>
 );
 }
-export default Banner
+export default CreatingAccount
 
 
 
