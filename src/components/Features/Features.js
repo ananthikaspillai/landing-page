@@ -5,19 +5,19 @@ import certificates from "../../assets/certificates.svg"
 import support from "../../assets/support.svg"
 function Features() {
 return (
-    <div className="self-center w-full max-w-[1170px] mt-[60px] px-16">
+    <div className="self-center w-full max-w-[1170px] mt-[60px] px-16 ">
       <div className="gap-5 flex max-md:flex-col ">
-        <div className=" w-[24%] ">
+        <div className=" w-[24%]  ">
           <div className="flex grow flex-col ">
             <img
             alt='feature'
               src={uptime}
               className="aspect-[1.01] object-cover object-center w-[101px] overflow-hidden self-center max-w-full "
             />
-            <div className="text-black text-xl font-bold self-center mt-5">
+            <div className="text-black text-xl font-extrabold self-center mt-5  ">
               99.9% Uptime
             </div>
-            <div className="text-black text-center text-xs font-light mt-3">
+            <div className="text-black text-center text-xs font-light mt-3 ">
               We Keep Your Web build Online 24x7x365.
               <br />
               Downtime not only costs you lost visitors but also damages your reputation and search engine rankings.
