@@ -29,9 +29,9 @@ return (
            <h1 className="mr-[140px]">Hosting  For Your</h1>
            <h1 className="mr-[330px]">Website</h1>
           </div>
-          <div className="w-96  mt-[40px] text-zinc-500 text-base font-normal font-['Inter'] leading-7 tracking-wide ">
-            <h1 className="mr-[56px]">Blazing fast web hosting for individuals and </h1> 
-            <h1 className="">businesses of all sizes backed by 24x7x365 Support.</h1>
+          <div className="w-95  mt-[40px] text-zinc-500 text-base font-normal font-['Inter']  ">
+            <h1 className="mr-[209px]">Blazing fast web hosting for individuals   </h1> 
+            <h1 className=" mr-[70px]"> and businesses of all sizes backed by 24x7x365 Support.</h1>
           </div>
           <div className="flex w-[320px] max-w-full items-start justify-between gap-5 mt-16 max-md:mt-10 mt-[46px]">
             <div className="text-white text-sm leading-[171.429%] self-stretch justify-center items-center shadow-[0px_0px_64px_0px_rgba(176,0,0,0.30)] bg-red-700 flex-1 pl-3.5 pr-3.5 py-3 rounded-lg">

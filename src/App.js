@@ -1,26 +1,26 @@
 
 import './App.css';
-import BannerSecond from './components/CloudHosting/CloudHosting';
+import CloudHosting from './components/CloudHosting/CloudHosting';
 import Header from './components/Header/Header';
-import BannerThird from './components/Features/Features'
-import BannerFourth from './components/PackageSelector/PackageSelector';
-import BannerFifth from './components/RealStories/RealStories';
-import Bottom1 from './components/Websites/Website';
-import Bottom2 from './components/ContactDetails/ContactDetails';
+import Features from './components/Features/Features'
+import PackageSelector from './components/PackageSelector/PackageSelector';
+import RealStories from './components/RealStories/RealStories';
+import Websites from './components/Websites/Website';
+import ContactDetails from './components/ContactDetails/ContactDetails';
 import Footer from './components/Footer/Footer';
-
 import CreatingAccount from './components/CreatingAccount/CreatingAccount';
+
 function App() {
   return (
     <div className="App">
     <Header/>
     <CreatingAccount/>
-    <BannerSecond/>
-     <BannerThird/>
-    <BannerFourth/>
-    <BannerFifth/>
-    <Bottom1/>
-    <Bottom2/>
+     <CloudHosting/>
+     <Features/>
+    <PackageSelector/>
+    <RealStories/>
+    <Websites/>
+    <ContactDetails/>
     <Footer/>
   
         </div>

@@ -2,11 +2,12 @@ import React from 'react'
 import logo from "../../assets/logo.svg"
 import phone from "../../assets/phone.svg"
 import './Header.css'
-function NavBar() {
+function Header() {
   return (
   <div className="self-center flex w-full max-w-[1136px] items-start justify-between gap-5 px-5 max-md:max-w-full max-md:flex-wrap max-md:justify-center">
     <div className="self-stretch flex w-[180px] max-w-full items-start justify-between gap-5 ml-[44px] mt-[30px]">
       <img
+      alt='logo'
         src={logo}
         className="aspect-[1.52] object-cover object-center w-[90px]  overflow-hidden flex-1"
       />
@@ -28,6 +29,7 @@ function NavBar() {
       </div>
       <div className="bg-zinc-300 self-stretch flex w-[1px] h-[19px] mt-[37px] flex-col" />
       <img
+      alt='phone'
       src={phone}
         className="aspect-square object-cover object-center w-[20px] h-[20px] mt-[35px]  mr-[30px] ml-[20px] overflow-hidden self-stretch max-w-full"
       />
@@ -38,4 +40,4 @@ function NavBar() {
   </div>
 );
 }
-export default NavBar
+export default Header

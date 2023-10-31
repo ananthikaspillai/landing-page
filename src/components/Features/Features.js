@@ -3,13 +3,14 @@ import uptime from "../../assets/uptime.svg"
 import hosting from "../../assets/hosting.svg"
 import certificates from "../../assets/certificates.svg"
 import support from "../../assets/support.svg"
-function BannerThird() {
+function Features() {
 return (
-    <div className="self-center w-full max-w-[1180px] mt-[7px] px-4">
+    <div className="self-center w-full max-w-[1170px] mt-[60px] px-16">
       <div className="gap-5 flex max-md:flex-col ">
         <div className=" w-[24%] ">
           <div className="flex grow flex-col ">
             <img
+            alt='feature'
               src={uptime}
               className="aspect-[1.01] object-cover object-center w-[101px] overflow-hidden self-center max-w-full "
             />
@@ -26,6 +27,7 @@ return (
         <div className="flex flex-col items-stretch w-[26%] ml-5 max-md:w-full max-md:ml-0">
           <div className="flex grow flex-col max-md:mt-10">
             <img
+            alt='feature'
               src={hosting}
               className="aspect-square object-cover object-center w-[100px] overflow-hidden self-center max-w-full"
             />
@@ -43,6 +45,7 @@ return (
         <div className="flex flex-col items-stretch w-3/12 ml-5 max-md:w-full max-md:ml-0">
           <div className="flex grow flex-col max-md:mt-10">
             <img
+            alt='feature'
              src={certificates}
               className="aspect-[1.01] object-cover object-center w-[101px] overflow-hidden self-center max-w-full"
             />
@@ -60,6 +63,7 @@ return (
         <div className="flex flex-col items-stretch w-[24%] ml-5 max-md:w-full max-md:ml-0">
           <div className="flex grow flex-col max-md:mt-10">
             <img
+            alt='feature'
               src={support}
               className="aspect-square object-cover object-center w-[100px] overflow-hidden self-center max-w-full"
             />
@@ -79,7 +83,7 @@ return (
   );
 }
 
-export default BannerThird
+export default Features
 
 
   

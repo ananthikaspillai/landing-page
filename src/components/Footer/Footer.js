@@ -12,6 +12,7 @@ return (
     <div className="flex flex-col items-stretch w-[53%] max-md:w-full max-md:ml-0">
     <div className="flex flex-col max-md:mt-10">
         <img
+        alt='logo'
          src={whitelogo}
         className="aspect-[1.51] object-cover object-center w-[121px] overflow-hidden max-w-full"    />
     <div className="text-neutral-200 text-base leading-[200%] mt-2.5">

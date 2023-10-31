@@ -5,7 +5,7 @@ import  litespeed from "../../assets/litespeed.svg"
 import  softaculs from "../../assets/softaculs.svg"
 import  wordpress from "../../assets/wordpress.svg"
 import  cloudflair from "../../assets/cloudflair.svg"
-function BannerSecond() {
+function CloudHosting() {
   return (
         <div className=" mt-[80px] px-3 gap-5 flex max-md:flex-col  ">
             <div className="flex flex-col items-stretch w-[49%] max-md:w-full max-md:ml-0">
@@ -27,10 +27,12 @@ function BannerSecond() {
 
                     <div className="flex grow flex-col  mr-20">
                       <img
+                       alt='panel'
                         src={panel}
                         className=" w-[140px]  h-[30px] "
                       />
                       <img
+                       alt='icon'
                         src={softaculs}
                         className="w-[160px] overflow-hidden self-stretch grow mt-14 "
                       />
@@ -39,10 +41,12 @@ function BannerSecond() {
                   <div className="flex flex-col ">
                     <div className="flex flex-col ">
                       <img
+                       alt='icon'
                         src={imunify}
                         className=" w-[125px] h-[50px]  mr-[60px] "
                       />
                       <img
+                       alt='icon'
                         src={wordpress}
                         className="  w-[150px] overflow-hidden self-stretch grow mt-14 "
                       />
@@ -51,10 +55,12 @@ function BannerSecond() {
                   <div className="flex flex-col items-stretch w-[28%] mr-20">
                     <div className="flex flex-col ">
                       <img
+                       alt='icon'
                         src={litespeed}
                         className="  w-[125px] h-[53px] "
                       />
                       <img
+                       alt='icon'
                         src={cloudflair}
                         className="  w-[140px] overflow-hidden grow mt-[41px] "
                       />
@@ -68,4 +74,4 @@ function BannerSecond() {
     
     
 
-export default BannerSecond
+export default CloudHosting

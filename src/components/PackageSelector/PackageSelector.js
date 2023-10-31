@@ -2,9 +2,9 @@ import React from 'react'
 import scroller from  "../../assets/scroller.svg"
 import circle from  "../../assets/circle.svg"
 import checkmark from  "../../assets/checkmark.svg"
-function BannerFourth() {
+function PackageSelector() {
 return (
-    <div className="self-center flex w-full max-w-[1097px] flex-col mt-[90px] px-5 max-md:max-w-full max-md:mt-10 ml-[90px]">
+    <div className="self-center flex w-full max-w-[1097px] flex-col mt-[60px] px-5 max-md:max-w-full max-md:mt-10 ml-[90px]">
       <div className="text-black text-center text-5xl font-semibold leading-[120%] max-w-[650px] self-center ml-4 max-md:max-w-full max-md:text-4xl">
         Ready to get started with <br />
         Lemon Wares?
@@ -18,16 +18,18 @@ return (
         </div>
         <div>
         <img
+        alt='scroller'
           src={scroller}
-          className="w-23 h-11 left-[566px] top-[1547px] absolute bg-red-700 rounded-3xl"
+          className="w-23 h-11 left-[566px] top-[1567px] absolute bg-red-700 rounded-3xl"
         />
-        <img src={circle} className="w-7 h-7 left-[576px] top-[1555px] absolute bg-white rounded-full"/>
+        <img src={circle} className="w-7 h-7 left-[575px] top-[1575px] absolute bg-white rounded-full"/>
         </div>
         <div className="text-black text-center text-2xl leading-[100%] self-center my-auto">
           Yearly
         </div>
-        <div className="text-black text-center text-xs font-medium leading-[90%] self-center bg-amber-200 w-[87px] max-w-full my-auto px-2.5 py-2 rounded-lg">
-          20% discount
+        <div className="text-black text-center text-xs font-medium   bg-amber-200 w-[85px] h-[30px]   rounded-lg">
+          <h1 className="w-[20px] h-2.5  text-black text-xs font-medium font-['Poppins'] mt-[7px] ml-[5px] ">20% </h1>
+          <h1 className="mt-[0px] w-[20px]  h-[12px] ml-[30px] text-black text-xs font-medium font-['Poppins']">discount</h1>
         </div>
       </div>
       <div className="self-center flex w-[551px] max-w-full items-start justify-between gap-5 ml-4 mt-16 max-md:flex-wrap max-md:mt-10">
@@ -66,6 +68,7 @@ return (
                 </div>
                 <div className="flex w-[116px] max-w-full items-start justify-between gap-5 mt-9">
                   <img
+                  alt='checkmark'
                     src={checkmark}
                     className="aspect-square object-cover object-center w-6 overflow-hidden self-stretch max-w-full"
                   />
@@ -76,6 +79,7 @@ return (
                 </div>
                 <div className="flex w-[174px] max-w-full items-start justify-between gap-5 mt-4">
                   <img
+                   alt='checkmark'
                     src={checkmark}
                     className="aspect-square object-cover object-center w-6 overflow-hidden self-stretch max-w-full"
                   />
@@ -85,6 +89,7 @@ return (
                 </div>
                 <div className="flex w-[188px] max-w-full items-start justify-between gap-5 mt-4">
                   <img
+                   alt='checkmark'
                   src={checkmark}
                     className="aspect-square object-cover object-center w-6 overflow-hidden self-stretch max-w-full"
                   />
@@ -94,6 +99,7 @@ return (
                 </div>
                 <div className="flex w-[204px] max-w-full items-start justify-between gap-5 mt-4">
                   <img
+                   alt='checkmark'
                    src={checkmark}
                     className="aspect-square object-cover object-center w-6 overflow-hidden self-stretch max-w-full"
                   />
@@ -103,6 +109,7 @@ return (
                 </div>
                 <div className="flex w-[157px] max-w-full items-start justify-between gap-5 mt-4">
                   <img
+                   alt='checkmark'
                   src={checkmark}
                     className="aspect-square object-cover object-center w-6 overflow-hidden self-stretch max-w-full"
                   />
@@ -112,6 +119,7 @@ return (
                 </div>
                 <div className="flex w-[175px] max-w-full items-start justify-between gap-5 mt-4">
                   <img
+                   alt='checkmark'
                    src={checkmark}
                     className="aspect-square object-cover object-center w-6 overflow-hidden self-stretch max-w-full"
                   />
@@ -121,6 +129,7 @@ return (
                 </div>
                 <div className="flex w-[132px] max-w-full items-start justify-between gap-5 mt-4">
                   <img
+                   alt='checkmark'
                    src={checkmark}
                     className="aspect-square object-cover object-center w-6 overflow-hidden self-stretch max-w-full"
                   />
@@ -130,6 +139,7 @@ return (
                 </div>
                 <div className="flex w-[111px] max-w-full items-start justify-between gap-5 mt-6">
                   <img
+                   alt='checkmark'
                    src={checkmark}
                     className="aspect-[1.5] object-cover object-center w-[18px] fill-black overflow-hidden self-stretch max-w-full"
                   />
@@ -139,6 +149,7 @@ return (
                 </div>
                 <div className="flex w-[139px] max-w-full items-start justify-between gap-5 mt-5">
                   <img
+                   alt='checkmark'
                    src={checkmark}
                     className="aspect-square object-cover object-center w-6 overflow-hidden self-stretch max-w-full"
                   />
@@ -172,6 +183,7 @@ return (
                 </div>
                 <div className="flex w-[116px] max-w-full items-start justify-between gap-5 mt-9">
                   <img
+                   alt='checkmark'
                     src={checkmark}
                     className="aspect-square object-cover object-center w-6 overflow-hidden self-stretch max-w-full"
                   />
@@ -182,6 +194,7 @@ return (
                 </div>
                 <div className="flex w-[174px] max-w-full items-start justify-between gap-5 mt-4">
                   <img
+                   alt='checkmark'
                    src={checkmark}
                     className="aspect-square object-cover object-center w-6 overflow-hidden self-stretch max-w-full"
                   />
@@ -191,6 +204,7 @@ return (
                 </div>
                 <div className="flex w-[188px] max-w-full items-start justify-between gap-5 mt-4">
                   <img
+                   alt='checkmark'
                     src={checkmark}
                     className="aspect-square object-cover object-center w-6 overflow-hidden self-stretch max-w-full"
                   />
@@ -200,6 +214,7 @@ return (
                 </div>
                 <div className="flex w-[204px] max-w-full items-start justify-between gap-5 mt-4">
                   <img
+                   alt='checkmark'
                    src={checkmark}
                     className="aspect-square object-cover object-center w-6 overflow-hidden self-stretch max-w-full"
                   />
@@ -209,6 +224,7 @@ return (
                 </div>
                 <div className="flex w-[157px] max-w-full items-start justify-between gap-5 mt-4">
                   <img
+                   alt='checkmark'
                   src={checkmark}
                     className="aspect-square object-cover object-center w-6 overflow-hidden self-stretch max-w-full"
                   />
@@ -218,6 +234,7 @@ return (
                 </div>
                 <div className="flex w-[175px] max-w-full items-start justify-between gap-5 mt-4">
                   <img
+                   alt='checkmark'
                    src={checkmark}
                     className="aspect-square object-cover object-center w-6 overflow-hidden self-stretch max-w-full"
                   />
@@ -227,6 +244,7 @@ return (
                 </div>
                 <div className="flex w-[132px] max-w-full items-start justify-between gap-5 mt-4">
                   <img
+                   alt='checkmark'
                   src={checkmark}
                     className="aspect-square object-cover object-center w-6 overflow-hidden self-stretch max-w-full"
                   />
@@ -236,6 +254,7 @@ return (
                 </div>
                 <div className="flex w-[111px] max-w-full items-start justify-between gap-5 mt-6">
                   <img
+                   alt='checkmark'
                 src={checkmark}
                     className="aspect-[1.5] object-cover object-center w-[18px] fill-black overflow-hidden self-stretch max-w-full"
                   />
@@ -245,6 +264,7 @@ return (
                 </div>
                 <div className="flex w-[139px] max-w-full items-start justify-between gap-5 mt-5">
                   <img
+                   alt='checkmark'
                     src={checkmark}
                     className="aspect-square object-cover object-center w-6 overflow-hidden self-stretch max-w-full"
                   />
@@ -278,6 +298,7 @@ return (
                 </div>
                 <div className="flex w-[116px] max-w-full items-start justify-between gap-5 mt-9 max-md:ml-px">
                   <img
+                   alt='checkmark'
                    src={checkmark}
                     className="aspect-square object-cover object-center w-6 overflow-hidden self-stretch max-w-full"
                   />
@@ -288,6 +309,7 @@ return (
                 </div>
                 <div className="flex w-[174px] max-w-full items-start justify-between gap-5 mt-4 max-md:ml-px">
                   <img
+                   alt='checkmark'
                    src={checkmark}
                     className="aspect-square object-cover object-center w-6 overflow-hidden self-stretch max-w-full"
                   />
@@ -297,6 +319,7 @@ return (
                 </div>
                 <div className="flex w-[188px] max-w-full items-start justify-between gap-5 mt-4 max-md:ml-px">
                   <img
+                   alt='checkmark'
                   src={checkmark}
                     className="aspect-square object-cover object-center w-6 overflow-hidden self-stretch max-w-full"
                   />
@@ -306,6 +329,7 @@ return (
                 </div>
                 <div className="flex w-[204px] max-w-full items-start justify-between gap-5 mt-4 max-md:ml-px">
                   <img
+                   alt='checkmark'
                   src={checkmark}
                     className="aspect-square object-cover object-center w-6 overflow-hidden self-stretch max-w-full"
                   />
@@ -315,6 +339,7 @@ return (
                 </div>
                 <div className="flex w-[157px] max-w-full items-start justify-between gap-5 mt-4 max-md:ml-px">
                   <img
+                   alt='checkmark'
                    src={checkmark}
                     className="aspect-square object-cover object-center w-6 overflow-hidden self-stretch max-w-full"
                   />
@@ -324,6 +349,7 @@ return (
                 </div>
                 <div className="flex w-[175px] max-w-full items-start justify-between gap-5 mt-4 max-md:ml-px">
                   <img
+                   alt='checkmark'
                   src={checkmark}
                     className="aspect-square object-cover object-center w-6 overflow-hidden self-stretch max-w-full"
                   />
@@ -333,6 +359,7 @@ return (
                 </div>
                 <div className="flex w-[132px] max-w-full items-start justify-between gap-5 mt-4 max-md:ml-px">
                   <img
+                   alt='checkmark'
                  src={checkmark}
                     className="aspect-square object-cover object-center w-6 overflow-hidden self-stretch max-w-full"
                   />
@@ -342,6 +369,7 @@ return (
                 </div>
                 <div className="flex w-[111px] max-w-full items-start justify-between gap-5 mt-6 max-md:ml-1">
                   <img
+                   alt='checkmark'
                     src={checkmark}
                     className="aspect-[1.5] object-cover object-center w-[18px] fill-black overflow-hidden self-stretch max-w-full"
                   />
@@ -351,6 +379,7 @@ return (
                 </div>
                 <div className="flex w-[139px] max-w-full items-start justify-between gap-5 mt-5 max-md:ml-px">
                   <img
+                   alt='checkmark'
                    src={checkmark}
                     className="aspect-square object-cover object-center w-6 overflow-hidden self-stretch max-w-full"
                   />
@@ -366,4 +395,4 @@ return (
     </div>
   );
 }
- export default BannerFourth
+ export default PackageSelector
