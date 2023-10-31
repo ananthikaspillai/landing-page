@@ -44,7 +44,7 @@ return (
         </div>
       </div>
       <div className="flex flex-col items-stretch w-6/12 ml-5 max-md:w-full max-md:ml-0">
-        <img className="aspect-[1.1] object-cover object-center w-[1000px] h-95 overflow-hidden grow mt-3 max-md:max-w-full max-md:mt-10" src={photo}
+        <img className="aspect-[1.1] object-cover object-center w-[1000px] h-95 overflow-hidden grow mt-3 max-md:max-w-full max-md:mt-10" src={photo} alt=''
         />
       </div>
     </div>
