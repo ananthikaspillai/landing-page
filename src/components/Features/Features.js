@@ -14,7 +14,7 @@ return (
               src={uptime}
               className="aspect-[1.01] object-cover object-center w-[101px] overflow-hidden self-center max-w-full "
             />
-            <div className="text-black text-xl font-extrabold self-center mt-5  ">
+            <div className="text-black text-xl font-bold self-center mt-5  ">
               99.9% Uptime
             </div>
             <div className="text-black text-center text-xs font-light mt-3 ">

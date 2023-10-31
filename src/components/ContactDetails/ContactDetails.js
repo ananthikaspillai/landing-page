@@ -5,7 +5,7 @@ import element2 from "../../assets/element2.svg"
 import element3 from "../../assets/element3.svg"
  function ContactDetails() {
   return (
-    <div className="bg-slate-50 self-center flex w-full max-w-[1232px] flex-col mt-28 pb-10 px-5 rounded-2xl max-md:max-w-full max-md:mt-10">
+    <div className="bg-slate-50  ml-[20px] self-center flex w-full max-w-[1232px] flex-col mt-28 pb-10 px-5 rounded-2xl max-md:max-w-full max-md:mt-10">
       <img
       alt='details'
        src={element1}
@@ -24,9 +24,9 @@ import element3 from "../../assets/element3.svg"
           <img
           alt='details'
            src={whatsapp}
-            className="aspect-square object-cover object-center w-[25px] fill-white fill-opacity-0 overflow-hidden self-stretch max-w-full"
+            className="  object-center w-[30px] h-[25px] fill-white fill-opacity-0 overflow-hidden  font-poppins "
           />{" "}
-          <div className="text-white text-sm leading-[171.429%] self-center my-auto">
+          <div className="text-white text-sm leading-[171.429%] self-center my-auto font-poppins w-[208px] ">
             Get in touch with us
           </div>
         </div>{" "}

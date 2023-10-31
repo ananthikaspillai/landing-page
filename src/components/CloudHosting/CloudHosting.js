@@ -7,14 +7,14 @@ import  wordpress from "../../assets/wordpress.svg"
 import  cloudflair from "../../assets/cloudflair.svg"
 function CloudHosting() {
   return (
-        <div className=" mt-[80px] px-3 gap-5 flex max-md:flex-col  ">
+        <div className=" mt-[80px] px-3 gap-5 flex max-md:flex-col   ">
             <div className="flex flex-col items-stretch w-[49%] max-md:w-full max-md:ml-0">
               <div className="flex grow flex-col max-md:max-w-full max-md:mt-10">
                 <div className="text-zinc-900 text-4xl font-extrabold w-[594px] h-[65px]  ">
                  <h1 className="mr-[75px] "> True Cloud Web Hosting </h1>
                 </div>
                 <div className="text-zinc-900  w-[570px] h-[200px] leading-[177%] mt-2">
-                 <h1 className="mr-[30px]"> True Cloud Web Hosting All of the hosting packages we offer are </h1> 
+                 <h1 className="mr-[30px] " > True Cloud Web Hosting All of the hosting packages we offer are </h1> 
                  <h1 className="mr-[65px]">deployed instantly on our SSD powered cloud. We don’t use </h1>
                  <h1 className="mr-[30px]"> dedicated servers that operate on single pieces of hardware. Our </h1>
                   <h1 className="mr-[50px]"> entire infrastructure is built to be reliable, secure, andscalable. </h1>

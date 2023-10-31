@@ -5,26 +5,26 @@ import checkmark from  "../../assets/checkmark.svg"
 function PackageSelector() {
 return (
     <div className="self-center flex w-full max-w-[1097px] flex-col mt-[60px] px-5 max-md:max-w-full max-md:mt-10 ml-[90px]">
-      <div className="text-black text-center text-5xl font-semibold leading-[120%] max-w-[650px] self-center ml-4 max-md:max-w-full max-md:text-4xl">
+      <div className="text-black text-center text-5xl font-semibold leading-[120%] max-w-[650px] self-center ml-4 max-md:max-w-full max-md:text-4xl font-poppins">
         Ready to get started with <br />
         Lemon Wares?
       </div>
-      <div className="text-black text-center text-2xl leading-[100%] self-center max-w-[464px] ml-4 mt-14 max-md:max-w-full max-md:mt-10">
+      <div className="text-black text-center text-2xl leading-[100%] self-center max-w-[464px] ml-4 mt-14 max-md:max-w-full max-md:mt-10 font-poppins">
         Choose the package that suits you
       </div>
       <div className="self-center flex w-[428px] max-w-full items-start justify-between gap-5 ml-14 mt-14 max-md:flex-wrap max-md:justify-center max-md:mt-10">
-        <div className="text-black text-center text-2xl leading-[100%] self-center my-auto">
+        <div className="text-black text-center text-2xl leading-[100%] self-center my-auto font-poppins">
           Monthly
         </div>
         <div>
         <img
         alt='scroller'
           src={scroller}
-          className="w-23 h-11 left-[566px] top-[1567px] absolute bg-red-700 rounded-3xl"
+          className="w-23 h-11 left-[566px] top-[1565px] absolute bg-red-700 rounded-3xl"
         />
-        <img src={circle} className="w-7 h-7 left-[575px] top-[1575px] absolute bg-white rounded-full"/>
+        <img src={circle} className="w-7 h-7 left-[575px] top-[1573px] absolute bg-white rounded-full"/>
         </div>
-        <div className="text-black text-center text-2xl leading-[100%] self-center my-auto">
+        <div className="text-black text-center text-2xl leading-[100%] self-center my-auto font-poppins">
           Yearly
         </div>
         <div className="text-black text-center text-xs font-medium   bg-amber-200 w-[85px] h-[30px]   rounded-lg">
@@ -33,10 +33,10 @@ return (
         </div>
       </div>
       <div className="self-center flex w-[551px] max-w-full items-start justify-between gap-5 ml-4 mt-16 max-md:flex-wrap max-md:mt-10">
-        <div className="text-black text-center text-3xl font-semibold leading-[133.333%] self-stretch">
+        <div className="text-black text-center text-3xl font-semibold leading-[133.333%] self-stretch font-poppins">
           Basic
         </div>
-        <div className="text-black text-center text-3xl font-semibold leading-[133.333%] self-stretch">
+        <div className="text-black text-center text-3xl font-semibold leading-[133.333%] self-stretch font-poppins">
           Premium
         </div>
       </div>
@@ -48,42 +48,42 @@ return (
           <div className="  w-[299px] h-[716px] ">
             <div className="shadow-[0px_0px_4px_0px_rgba(0,0,0,0.25)_inset] bg-white flex w-full grow flex-col flex-1 mx-auto pt-9 pb-12 px-5 rounded-2xl border-[1.5px] border-solid border-stone-300 max-md:mt-10">
               <div className="self-center flex w-[237px] max-w-full flex-col">
-                <div className="text-black text-center text-3xl font-semibold leading-[89.286%]">
+                <div className="text-black text-center text-3xl font-semibold leading-[89.286%] font-poppins">
                   Starter
                 </div>
-                <div className="text-black text-xs leading-[150%] mt-3">
+                <div className="text-black text-xs leading-[150%] mt-3 font-poppins">
                   with all your customers via all conversation channels in one
                   central dashboard.
                 </div>
-                <div className="text-black text-5xl font-semibold leading-[76.19%] mt-10 max-md:mt-10">
+                <div className="text-black text-5xl font-semibold leading-[76.19%] mt-10 max-md:mt-10 font-poppins">
                   $2.80
                 </div>
-                <div className="text-black text-center text-sm font-light leading-[100%] mt-2.5">
+                <div className="text-black text-center text-sm font-light leading-[100%] mt-2.5 font-poppins">
                   Per month
                 </div>
                 <div className="bg-white flex w-full flex-col mt-9 p-5 rounded-xl border-2 border-solid border-black">
-                  <div className="text-black text-center text-sm font-semibold leading-[228.571%] self-center">
+                  <div className="text-black text-center text-sm font-semibold leading-[228.571%] self-center font-poppins">
                     Choose this Plan
                   </div>
                 </div>
-                <div className="flex w-[116px] max-w-full items-start justify-between gap-5 mt-9">
+                <div className="flex w-[116px] max-w-full items-start justify-between gap-5 mt-9 font-poppins">
                   <img
                   alt='checkmark'
                     src={checkmark}
-                    className="aspect-square object-cover object-center w-6 overflow-hidden self-stretch max-w-full"
+                    className="aspect-square object-cover object-center w-6 overflow-hidden self-stretch max-w-full font-poppins"
                   />
-                  <div className="text-zinc-500 text-base font-bold leading-[150%] self-center my-auto">
+                  <div className="text-zinc-500 text-base font-bold leading-[150%] self-center my-auto font-poppins">
                     2GB SSD
                     <br />
                   </div>
                 </div>
-                <div className="flex w-[174px] max-w-full items-start justify-between gap-5 mt-4">
+                <div className="flex w-[174px] max-w-full items-start justify-between gap-5 mt-4 ">
                   <img
                    alt='checkmark'
                     src={checkmark}
                     className="aspect-square object-cover object-center w-6 overflow-hidden self-stretch max-w-full"
                   />
-                  <div className="text-zinc-500 text-base font-semibold leading-[150%] self-center my-auto">
+                  <div className="text-zinc-500 text-base font-semibold leading-[150%] self-center my-auto ">
                     10GB Bandwidth
                   </div>
                 </div>
@@ -173,7 +173,7 @@ return (
                 <div className="text-black text-5xl font-semibold leading-[76.19%] mt-10 max-md:mt-10">
                   $4.20
                 </div>
-                <div className="text-black text-center text-sm font-light leading-[100%] mt-2.5">
+                <div className="text-black text-center text-sm font-light leading-[100%] mt-2.5 font-poppins">
                   Per month
                 </div>
                 <div className="bg-white flex w-full flex-col mt-9 p-5 rounded-xl border-2 border-solid border-black">
@@ -278,17 +278,17 @@ return (
           <div className="flex flex-col w-[299px] h-[716px]">
             <div className="shadow-[0px_0px_4px_0px_rgba(0,0,0,0.25)_inset] bg-white flex w-full grow flex-col flex-1 mx-auto pt-9 pb-12 px-5 rounded-2xl border-[1.5px] border-solid border-stone-300 max-md:mt-10">
               <div className="self-center flex w-[238px] max-w-full flex-col">
-                <div className="text-black text-3xl font-semibold leading-[89.286%]">
+                <div className="text-black text-3xl font-semibold leading-[89.286%] font-poppins">
                   Suprem
                 </div>
-                <div className="text-black text-xs leading-[150%] mt-1.5 max-md:ml-px">
+                <div className="text-black text-xs leading-[150%] mt-1.5 max-md:ml-px font-poppins">
                   with all your customers via all conversation channels in one
                   central dashboard.
                 </div>
                 <div className="text-black text-5xl font-semibold leading-[76.19%] mt-10 max-md:ml-2 max-md:mt-10">
                   $7.00
                 </div>
-                <div className="text-black text-center text-sm font-light leading-[100%] mt-2.5 max-md:ml-2">
+                <div className="text-black text-center text-sm font-light leading-[100%] mt-2.5 max-md:ml-2 font-poppins">
                   Per month
                 </div>
                 <div className="bg-white flex w-full flex-col mt-9 p-5 rounded-xl border-2 border-solid border-black max-md:ml-px">
