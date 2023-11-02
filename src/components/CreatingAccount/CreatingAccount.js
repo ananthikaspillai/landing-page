@@ -1,6 +1,9 @@
 
  import React from 'react';
  import photo from "../../assets/photo.svg";
+ import element1 from "../../assets/element1.svg"
+ import element2 from "../../assets/element2.svg"
+import element3 from "../../assets/element3.svg"
 function CreatingAccount() {
 return (
   <div className="self-center w-full max-w-[1215px]  px-16 max-md:max-w-full mt-[50px]">
@@ -43,9 +46,12 @@ return (
           </div>
         </div>
       </div>
-      <div className="flex flex-col items-stretch w-6/12 ml-5 max-md:w-full max-md:ml-0">
-        <img className="aspect-[1.1] object-cover object-center w-[1000px] h-95 overflow-hidden grow mt-3 max-md:max-w-full max-md:mt-10" src={photo} alt=''
+      <div className="flex flex-col items-stretch w-[501px] h-[504px] ml-5 ">
+        <img className="aspect-[1.1] object-cover object-center w-[1000px] h-95 relative grow mt-3 " src={photo} alt=''
         />
+        <img className="w-[72px] h-[72px] absolute bottom-2 right-20 " src={element1} alt='element1'/>
+        <img className="w-[40px] h-[40px] absolute bottom-2 right-[600px] " src={element2} alt='element1'/>
+        <img className="w-[40px] h-[40px] absolute bottom-[350px] right-24 " src={element3} alt='element1'/>
       </div>
     </div>
   </div>
