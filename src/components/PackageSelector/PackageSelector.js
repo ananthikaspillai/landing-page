@@ -20,9 +20,9 @@ return (
         <img
         alt='scroller'
           src={scroller}
-          className="w-23 h-11 left-[566px] top-[1565px] absolute bg-red-700 rounded-3xl"
+          className="w-23 h-11 left-[566px] top-[1576px] absolute bg-red-700 rounded-3xl"
         />
-        <img src={circle} className="w-7 h-7 left-[575px] top-[1573px] absolute bg-white rounded-full"/>
+        <img alt=''   src={circle} className="w-7 h-7 left-[575px] top-[1584px] absolute bg-white rounded-full"/>
         </div>
         <div className="text-black text-center text-2xl leading-[100%] self-center my-auto font-poppins">
           Yearly

@@ -49,9 +49,9 @@ return (
       <div className="flex flex-col items-stretch w-[501px] h-[504px] ml-5 ">
         <img className="aspect-[1.1] object-cover object-center w-[1000px] h-95 relative grow mt-3 " src={photo} alt=''
         />
-        <img className="w-[72px] h-[72px] absolute bottom-2 right-20 " src={element1} alt='element1'/>
+        <img className="w-[70px] h-[70px] absolute bottom-2 right-24 " src={element1} alt='element1'/>
         <img className="w-[40px] h-[40px] absolute bottom-2 right-[600px] " src={element2} alt='element1'/>
-        <img className="w-[40px] h-[40px] absolute bottom-[350px] right-24 " src={element3} alt='element1'/>
+        <img className="w-[40px] h-[40px] absolute bottom-[360px] right-24 " src={element3} alt='element1'/>
       </div>
     </div>
   </div>
